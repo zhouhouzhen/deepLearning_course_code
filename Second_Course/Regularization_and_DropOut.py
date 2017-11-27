@@ -600,7 +600,6 @@ print ("dA1 = " + str(gradients["dA1"]))
 print ("dA2 = " + str(gradients["dA2"]))
 
 
-
 # Let's now run the model with dropout (keep_prob = 0.86). It means at every iteration you shut down each neurons of layer 1 and 2 with 24% probability. The function model() will now call:
 # forward_propagation_with_dropout instead of forward_propagation.
 # backward_propagation_with_dropout instead of backward_propagation.
